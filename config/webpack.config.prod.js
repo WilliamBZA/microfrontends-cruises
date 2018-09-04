@@ -67,6 +67,8 @@ module.exports = {
     // There will be one main bundle, and one file per asynchronous chunk.
     // We don't currently advertise code splitting but Webpack supports it.
     filename: 'static/js/[name].js',
+    library: '[name]',
+    libraryTarget: 'umd',
     chunkFilename: 'static/js/[name].[chunkhash:8].chunk.js',
     // We inferred the "public path" (such as / or /my-project) from homepage.
     publicPath: publicPath,
@@ -75,6 +77,9 @@ module.exports = {
       path
         .relative(paths.appSrc, info.absoluteResourcePath)
         .replace(/\\/g, '/'),
+  },
+  externals: {
+    react: 'react'
   },
   resolve: {
     // This allows you to set a fallback for where Webpack should look for modules.
