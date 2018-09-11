@@ -8,7 +8,9 @@ class CruiseNavButton extends React.Component {
 
 class Cruise extends React.Component {
     render() {
-      return <form method="post" className="colorlib-form">
+      return <form method="post"
+        className="colorlib-form"
+        action="http://cruises-r-us/search.php">
       <div className="row">
        <div className="col-md-4">
            <div className="form-group">
