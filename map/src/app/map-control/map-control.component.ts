@@ -2,7 +2,7 @@ import { Component, OnInit, ViewEncapsulation  } from '@angular/core';
 import { IBox, IMapOptions, ILatLong } from 'angular-maps';
 
 @Component({
-  selector: 'app-map-control',
+  selector: 'map-control',
   templateUrl: './map-control.component.html',
   styleUrls: ['./map-control.component.css'],
   encapsulation: ViewEncapsulation.Native

@@ -19,7 +19,7 @@ import { MapModule, MapAPILoader, BingMapAPILoaderConfig, BingMapAPILoader, Wind
     MapModule.forRoot()
   ],
   providers: [{ provide: MapAPILoader, deps: [], useFactory: MapServiceProviderFactory }],
-  bootstrap: [AppComponent],
+  bootstrap: [MapControlComponent],
   entryComponents: [MapControlComponent]
 })
 export class AppModule {
