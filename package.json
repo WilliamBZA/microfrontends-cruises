@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "main": "build/static/js/cruises.js",
+  "files":[
+    "build/static/js/cruises.js",
+    "map/component/map-control.js"
+  ],
   "dependencies": {
     "@agm/core": "^1.0.0-beta.3",
     "@angular/common": "^6.1.7",

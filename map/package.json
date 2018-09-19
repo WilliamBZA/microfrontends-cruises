@@ -22,6 +22,8 @@
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
+    "angular-maps": "^6.0.1",
+    "bingmaps": "^2.0.3",
     "concat": "^1.0.3",
     "core-js": "^2.5.4",
     "document-register-element": "^1.7.2",
