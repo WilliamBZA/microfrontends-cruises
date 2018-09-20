@@ -67,7 +67,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "buildng": "tsc",
-    "hostng": "live-server --port=8081"
+    "hostng": "start live-server --port=8081"
   },
   "jest": {
     "collectCoverageFrom": [
